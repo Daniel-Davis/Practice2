@@ -1,4 +1,5 @@
 // Daniel Davis, Stack, Practices for stack, push numbers 2,4,6,8,10 loop and pop those numbers for a total of their sum//
+load('stack.js'); // loads up code from stack
 
 var total = 0; // variable used for the output value
 var stack = new stack(); // creates a new stack
