@@ -11,9 +11,10 @@ stack.push(10);
 
 for (var i=0, i<=stack.length, ++i) { // for loop that cycles through the length of the stack
   total = stack.pop(i) + total; // total will get it's previous value plus the new value that was popped
+  console.log('adding total... new total is' + total); // checks to make sure looping and adding correctly
 }// end of for loop
 
-
+console.log('final total value is: ' + total); // prints out final total value
 
 
 
